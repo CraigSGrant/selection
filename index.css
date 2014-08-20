@@ -4,7 +4,7 @@ h1 {
 }
 
 body {
-  background: blue;
+  background: gray;
 }
 
 div {
@@ -13,11 +13,11 @@ div {
     text-align: center;
 }
 
-#sortable {
+.sortable {
   list-style-type: none; margin: 0; padding: 0; width: 60%;
 }
 
-#sortable li {
+.sortable li {
   margin: 0 3px 3px 3px;
   padding: 0.4em;
   padding-left: 1.5em;
@@ -26,11 +26,30 @@ div {
   border: 2px solid;
 }
 
-#sortable li span {
+.sortable li span {
   position: absolute;
   margin-left: -1.3em;
 }
 
 img {
-  width: 50px;
+  width: 100px;
+}
+
+#one {
+  color: red;
+}
+#two {
+  color: orange;
+}
+#three {
+  color: yellow;
+}
+#four {
+  color: green;
+}
+#five {
+  color: blue;
+}
+#six {
+  color: purple;
 }
